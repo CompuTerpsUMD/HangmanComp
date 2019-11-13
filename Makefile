@@ -1,6 +1,3 @@
-test:
-	for i in {1..9}; do for x in {1..3}; do sleep 1; ./handler $i; done; done
-
 JAVA_SETUP:
 	mv java_handler handler
 	rm -f c_handler py_handler user_pgm.c user_pgm.py
