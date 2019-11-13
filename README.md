@@ -19,3 +19,5 @@ To begin:
  - To run a larger test of the system, run "./test.sh" and watch it go.
 
 GOOD LUCK!!! YOU'LL NEED IT!!!
+
+words.txt from https://github.com/dwyl/english-words
