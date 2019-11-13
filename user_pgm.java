@@ -1,5 +1,5 @@
 import java.io.*;
-import java.lang.StringBuffer;
+import java.util.Scanner;
 
 public class user_pgm {
     
