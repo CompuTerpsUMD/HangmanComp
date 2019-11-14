@@ -4,12 +4,14 @@
 #include <ctype.h>
 
 void get_in(char* state, char* guesses, int* x) {
-  state = malloc(63);
-  guesses = malloc(63);
-
   scanf("%s", state);
   scanf("%s", guesses);
   scanf("%d", x);
+
+  if (*x == 0) {
+    *x = atoi(guesses);
+    memset(&guesses[0], 0, sizeof(guesses));
+  }
 }
 
 void print_char(char to_send) {
@@ -31,11 +33,14 @@ void print_char(char to_send) {
 char user_func(char* state, char* guesses, int num_guesses) {
 
   /* YOUR CODE HERE */
-  
+  FILE *f;
+  f = fopen("t.txt", "a");
+  fprintf(f, "%s %s %d\n", state, guesses, num_guesses);
+  fclose(f);
 }
 
 int main(void) {
-  char *state, *guesses, to_send;
+  char state[256], guesses[256], to_send;
   int num_guesses;
 
   get_in(state, guesses, &num_guesses);
