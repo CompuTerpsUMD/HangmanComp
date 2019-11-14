@@ -40,7 +40,7 @@ char user_func(char* state, char* guesses, int num_guesses) {
 }
 
 int main(void) {
-  char state[256], guesses[256], to_send;
+  char state[63], guesses[63], to_send;
   int num_guesses;
 
   get_in(state, guesses, &num_guesses);
