@@ -1,4 +1,5 @@
 # HangmanComp
+## Developed for CompuTerps Coding Challenge.
 
 To begin:
 1. Choose language:
@@ -23,7 +24,7 @@ words.txt from https://github.com/dwyl/english-words
 Tips:
  - Keep in mind that the program can only take 26 guesses. If you guess a character that you have previously guessed, you will NOT get a warning and it WILL count towards your total number of guesses.
  - You will need to use file i/o in this program, but I have taken care of much of it for you. Other than accessing the word file, you probably will not have to use any i/o for any part of this if you write your code in the given functions/methods and do not change anything else about the programs.
- _ Make sure you compile using the make file (see step 3 above) before each test otherwise, you may have difficulty. If you want to test a specific length random word, just run "./handler <NUMBER>". Example: "./handler 9" to test for a 9 character word. If you choose a number too big it'll seg fault do pls don't.
+ - Make sure you compile using the make file (see step 3 above) before each test otherwise, you may have difficulty. If you want to test a specific length random word, just run "./handler <NUMBER>". Example: "./handler 9" to test for a 9 character word. If you choose a number too big it'll seg fault do pls don't.
  - As with any hastily made program, this program does have flaws. If you believe you know an input that can give you a lower score without actually figuring out the word, we want to see it.
 
 GOOD LUCK!!! YOU'LL NEED IT!!!
