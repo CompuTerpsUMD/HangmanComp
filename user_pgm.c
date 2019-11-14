@@ -31,12 +31,7 @@ void print_char(char to_send) {
  * character that you want to guess.
  */
 char user_func(char* state, char* guesses, int num_guesses) {
-
   /* YOUR CODE HERE */
-  FILE *f;
-  f = fopen("t.txt", "a");
-  fprintf(f, "%s %s %d\n", state, guesses, num_guesses);
-  fclose(f);
 }
 
 int main(void) {
