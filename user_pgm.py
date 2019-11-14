@@ -17,6 +17,10 @@ def print_char(to_send):
 # if the word to be guessed is "apple" and you have previously guessed 'a' and 'l', then
 # state will appear as "a__l_"
 def user_code(input):
+    state = input[0]
+    guesses = input[1]
+    num = input[2]
+    
     # YOUR CODE HERE
 
 print_char(user_code(get_input()))
