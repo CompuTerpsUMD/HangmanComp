@@ -1,5 +1,5 @@
 # HangmanComp
-## Developed for CompuTerps Coding Challenge.
+#### Developed for CompuTerps Coding Challenge.
 
 To begin:
 1. Choose language:
