@@ -1,8 +1,10 @@
 import sys
+import fileinput
 
 def get_input():
-    input = sys.stdin[0].split()
+    input = fileinput.input()[0].split()
     input[2] = int(input[2])
+    return input
 
 def print_char(to_send):
     print(to_send.lower())
@@ -13,7 +15,7 @@ def print_char(to_send):
 # a '_' character if the letter has not been guessed or the correct character. Example:
 # if the word to be guessed is "apple" and you have previously guessed 'a' and 'l', then
 # state will appear as "a__l_"
-def user_code(input):
+def user_func(input):
     # YOUR CODE HERE
 
     
